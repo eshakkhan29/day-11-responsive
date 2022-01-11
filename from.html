@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+    <script src="https://kit.fontawesome.com/75eb6f4c1c.js" crossorigin="anonymous"></script>
+    <style>
+        .container{
+            width: 70%;
+            margin: 0 auto;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0px;
+            text-align: center;
+        }
+        nav a{
+            text-transform: uppercase;
+            font-weight: 600;
+            text-decoration: none;
+            margin-right: 20px;
+            padding: 5px 10px;
+            color: #cf8e00;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .user a{
+            margin-right: 0;
+            color: #2e2e2e;
+            font-size: 20px;
+        }
+        .login-form{
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .from-data{
+            display: flex;
+            flex-direction: column;
+            padding:  20px 40px 100px 40px;
+            border: 2px solid orange;
+            border-radius: 20px;
+        }
+        .from-data h2{
+            text-align: center;
+            color: orange;
+            text-shadow: 2px 0px 2px #b1a500;
+        }
+        .from-data input{
+            margin-bottom: 20px;
+            outline: none;
+            border:2px solid orange;
+            padding-left: 5px;
+            font-size: 16px;
+            padding: 10px;
+            border-radius: 5px;
+            color: orange;
+        }
+        .from-data button{
+            outline: none;
+            border:2px solid orange;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 10px;
+            border-radius: 5px;
+            color: #ffffff;
+            background: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="container">
+        <nav>
+           <div class="manu">
+            <a href="#">HOme</a>
+            <a href="">flex grow</a>
+            <a href="">from</a>
+            <a href="">HOme</a>
+            <a href="">HOme</a>
+           </div>
+           <div class="user">
+            <a href=""><i class="fas fa-user-circle"></i></a>
+            <a href=""><i class="fas fa-sign-out-alt"></i></a>
+           </div>
+        </nav>
+    </header>
+    <section class="from container">
+        <div class="login-form">
+            <div class="from-data">
+                <h2>Login</h2>
+                <input type="email" name="email" placeholder="Your email" id="">
+                <input type="password" name="password" placeholder="Your password" id="">
+                <button type="submit">Login</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
