@@ -135,6 +135,92 @@
             object-fit: cover;
             border-radius: 20px;
         }
+        .photo-albam h1{
+            font-size: 60px;
+            position: relative;
+            color: transparent;
+            
+        }
+        .photo-albam h1::before{
+            content: "Photo album";
+            color: orange;
+            position: absolute;
+            left: 0;
+            top: 0;
+            animation: textanimation 4s linear infinite;
+        }
+        @keyframes textanimation {
+            0%{
+                content: "P|";
+            }
+            6%{
+                content: "Ph|";
+            }
+            12%{
+                content: "Pho|";
+            }
+            18%{
+                content: "Phot|";
+            }
+            24%{
+                content: "Photo|";
+            }
+            30%{
+                content: "Photo |";
+            }
+            36%{
+                content: "Photo a|";
+            }
+            42%{
+                content: "Photo al|";
+            }
+            48%{
+                content: "Photo alb|";
+            }
+            54%{
+                content: "Photo albu|";
+            }
+            60%{
+                content: "Photo album|";
+            }
+
+            66%,78%{
+                content: "Photo album|";
+            }
+            80%{
+                content: "Photo albu|";
+            }
+            82%{
+                content: "Photo alb|";
+            }
+            84%{
+                content: "Photo al|";
+            }
+            86%{
+                content: "Photo a|";
+            }
+            88%{
+                content: "Photo |";
+            }
+            90%{
+                content: "Photo|";
+            }
+            92%{
+                content: "Phot|";
+            }
+            94%{
+                content: "Pho|";
+            }
+            96%{
+                content: "Ph|";
+            }
+            98%{
+                content: "P|";
+            }
+            100%{
+                content: "|";
+            }
+        }
     </style>
 </head>
 <body>
